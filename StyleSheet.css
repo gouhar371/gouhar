@@ -1,0 +1,503 @@
+html,
+body {
+  height: 100%;
+  background: ("../img/pattern.jpg");
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+#cover {
+  height: 100%;
+  background: url("../img/trees.jpg");
+  background-size: cover;
+}
+
+.col-sm-3 {
+  height: 100%;
+}
+
+.wall-sticker {
+  background-color: rgba(0, 0, 0, 0.479);
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  text-align: center;
+  color: white;
+  height: 600px;
+  margin-left: 108px;
+  margin-right: -113px;
+}
+
+.moto {
+  color: white;
+  padding: 130px;
+  margin-left: 181px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: medium;
+  font-family: "Oswald", sans-serif;
+}
+
+.btn-lg {
+  margin: 25px;
+  text-align: center;
+  font-size: 17px;
+  width: 140px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(0, 128, 0, 0.144);
+  margin-top: 101px;
+  transition: 0.5;
+}
+
+.btn-lg:hover {
+  background-color: #4caf50;
+  transition: 0.5s;
+}
+
+/*SPAN*/
+
+.search_btn {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* NAVBAR desiging  */
+
+.nav-brand {
+  font-family: "Oswald", sans-serif;
+}
+
+#main_nav .nav-link {
+  font-family: "Manrope", sans-serif;
+  text-decoration: none;
+}
+
+#form {
+  width: 120%;
+  height: 30px;
+  border-radius: 6px;
+}
+
+#search {
+  margin-left: 280px;
+  width: 200px;
+}
+
+#search input[type="text"] {
+  font-size: 12px;
+}
+
+.my_button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 6px;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 4px 20px;
+  margin-right: 20px;
+}
+
+.nav {
+  font-size: 17px;
+  padding: -60px;
+}
+
+.nav .nav-link {
+  color: rgb(128, 128, 128);
+}
+
+.nav .nav-items .nav-link:hover {
+  color: #4caf50;
+  transition: 0.5s;
+}
+
+.my_button:hover {
+  opacity: 0.8;
+}
+
+/*Feature Designing*/
+.features {
+  background-color: grey;
+}
+
+.section-features {
+  padding: 5rem 0rem;
+  background: ("../img/pattern.jpg");
+}
+
+.square {
+  text-align: center;
+}
+
+.square i {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+.square i :hover {
+  color: #4caf50;
+}
+
+.sec-head,
+.under-heading {
+  text-align: center;
+}
+
+.green-hr {
+  background-color: #2dbd31;
+  width: 150px;
+}
+
+.link:hover {
+  color: #4caf50;
+}
+
+/*timeline desgning*/
+
+.heading,
+.sub-heading {
+  text-align: center;
+}
+
+#time-line {
+  padding: 50px;
+  background-color: white;
+}
+
+.timeline {
+  list-style: none;
+
+  padding: 20px 0px 80px;
+  padding-top: 50px;
+  position: relative;
+}
+
+/* grey line in the center of the timeline section*/
+.timeline:before {
+  top: 0;
+  bottom: 0;
+  content: " ";
+  position: absolute;
+  background-color: #eeeeee;
+  width: 3px;
+  left: 50%;
+  margin: 1.5px;
+}
+
+.timeline > li {
+  margin-bottom: 20px;
+}
+
+.timeline > li:before,
+.timeline > li:after {
+  content: "";
+  display: table;
+}
+
+.timeline > li:after {
+  clear: both;
+}
+
+.timeline > li > .timeline-panel {
+  width: 50%;
+  float: left;
+  border: 1px solid #d4d4d4;
+  border-radius: 2px;
+  position: relative;
+  box-shadow: 0 1px 6px;
+}
+
+.timeline p {
+  padding-left: 4px;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: left;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+h6 {
+  font-family: "Russo One", sans-serif;
+  padding-left: 4px;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+/* middle box of the timeline-section*/
+.target {
+  padding-left: 90px;
+}
+
+.timeline > li.timeline-inverted {
+  padding-right: 90px;
+}
+
+.target2 {
+  padding-right: 90px;
+}
+
+.timeline-badge {
+  position: relative;
+  text-align: center;
+  width: 7%;
+  left: 51%;
+  background-color: #4caf50;
+  border-radius: 40px;
+  color: white;
+  font-size: 15px;
+}
+
+/*moving the middle box of time line section*/
+.timeline > li.target .timeline-panel {
+  float: right;
+}
+
+/*desiging of timeline - badge 2016*/
+.timeline-badge2 {
+  position: relative;
+  width: 7%;
+  background-color: green;
+  border-radius: 40px;
+  text-align: center;
+  color: white;
+  right: -42%;
+}
+
+#parallax-section {
+  text-align: center;
+  background: url("../img/trees.jpg") center repeat fixed;
+  color: white;
+  padding: 80px 0;
+  background-size: cover;
+}
+
+.parlx-button {
+  border: 2px solid rgba(0, 0, 255, 0.247);
+  background-color: rgba(0, 128, 0, 0.205);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 7px;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+
+.parlx-button:hover {
+  background-color: rgba(0, 128, 0, 0.836);
+  transition: 0.5s;
+}
+
+/* our product desiging*/
+
+#products {
+  padding: 3rem;
+}
+
+#grid-system {
+  position: relative;
+  left: 54px;
+  margin-top: 30px;
+}
+.right-colom {
+  position: relative;
+  right: -1.5%;
+}
+
+.left-colom {
+  position: relative;
+  right: 5.4%;
+}
+
+.prd-para {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 20px;
+}
+
+.crd-title {
+  font-family: "Russo One", sans-serif;
+}
+
+.crd-bd {
+  background-color: rgba(128, 128, 128, 0.164);
+}
+
+.card a {
+  color: rgba(7, 80, 7, 0.726);
+  text-decoration: none;
+}
+
+.card a:hover {
+  color: #4caf50;
+}
+
+.card img:hover {
+  transform: scale(0.99);
+  transition: 0.5s;
+}
+
+/*Number section desiging*/
+
+#Number {
+  padding: 5rem;
+}
+
+.num-heading {
+  text-align: center;
+  margin-left: 30px;
+}
+
+.num-para {
+  text-align: center;
+  margin-left: 30px;
+}
+
+.num-contain {
+  background: #4caf50;
+  display: table-caption;
+  border-radius: 100%;
+  width: 100px;
+  height: 105px;
+  padding: 10px;
+  margin-left: 55px;
+  margin-top: -30px;
+}
+
+.num {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+  color: white;
+}
+
+.grid {
+  margin-left: 80px;
+}
+
+.colom {
+  padding: 3.5rem;
+}
+
+.para-num {
+  font-family: "Oswald", sans-serif;
+}
+
+.num-para {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+.counter {
+  font-family: "Oswald", sans-serif;
+}
+
+/*Testomonial*/
+
+#testomonial {
+  margin-bottom: 20%;
+}
+
+.testomonial-section {
+  padding-top: 1rem;
+}
+
+.test-img {
+  border-radius: 50%;
+  width: 118px;
+  height: 118px;
+  margin-top: 50px;
+}
+
+.test-img:hover {
+  transition: 0.5s;
+  transform: scale(0.98);
+}
+
+.test-head {
+  text-align: center;
+}
+
+.test-para {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 16px;
+}
+
+blockquote {
+  font-family: "Open Sans Condensed", sans-serif;
+  padding-top: 3rem;
+}
+
+.tetomonial-hr {
+  background-color: #2dbd31;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/*desiging footer section*/
+
+footer {
+  background-color: rgba(222, 184, 135, 0.877);
+  text-align: center;
+  padding-bottom: 8px;
+
+  padding-top: 1%;
+}
+
+.foot-para {
+  position: relative;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 5%;
+  bottom: 20px;
+  font-size: 18px;
+}
+
+.social-links {
+  list-style: none;
+  float: right;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.social-links li a:link,
+.social-links li :visited {
+  text-decoration: none;
+  border: 0;
+  color: #888;
+  font-size: 130%;
+}
+
+.fa-facebook-square:hover {
+  color: #3b5998;
+}
+
+.fa-twitter-square:hover {
+  color: #5eaade;
+}
+
+.fa-google-plus-square:hover {
+  color: #dc5246;
+}
+
+.fa-chevron-circle-up {
+  color: #2dbd31;
+}
